@@ -1,97 +1,94 @@
-import sys
-import os
-from pathlib import Path
+import argparse
+from typing import Dict, Set, List
+from domain.entities import Address
+from infrastructure.platform_guesser import get_standard_from_address
 
-sys.path.insert(0, str(Path(__file__).parent))
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Meta Hunter – CTF Full Cycle Tool')
+    parser.add_argument('--mode', choices=['hunt', 'crack', 'full'], default='full',
+                        help='Operation mode: hunt addresses, crack keys, or full cycle')
+    # Общие настройки
+    parser.add_argument('--targets', default='data/targets.txt',
+                        help='File with target addresses (for crack/full)')
+    parser.add_argument('--seeds', default='data/seeds.txt',
+                        help='File with seed addresses for BFS hunt')
+    parser.add_argument('--workers', type=int, default=4,
+                        help='Number of worker processes for cracking')
+    # Настройки BFS-поиска
+    parser.add_argument('--max-depth', type=int, default=5,
+                        help='BFS max depth')
+    parser.add_argument('--min-balance', type=float, default=0.001,
+                        help='Minimum balance to consider (BTC)')
+    parser.add_argument('--inactive-days', type=int, default=365,
+                        help='Days since last transaction to be considered inactive')
+    parser.add_argument('--max-addresses', type=int, default=10000,
+                        help='Maximum addresses to process in BFS')
+    parser.add_argument('--base-delay', type=float, default=2.0,
+                        help='Base delay between API requests')
+    # Настройки подбора ключей
+    parser.add_argument('--address-limit', type=int, default=20,
+                        help='Number of address indices to check per mnemonic')
+    parser.add_argument('--no-change', action='store_true',
+                        help='Do not check change addresses')
+    parser.add_argument('--stop-after-first', action='store_true',
+                        help='Stop after first match')
+    parser.add_argument('--seed', type=int,
+                        help='Random seed for deterministic generation (counter mode)')
+    parser.add_argument('--checkpoint-interval', type=int, default=5000,
+                        help='Save progress every N phrases')
+    parser.add_argument('--require-unique', action='store_true',
+                        help='Require unique words in mnemonic (CTF mode)')
+    return parser.parse_args()
 
-from infrastructure.logger import get_logger
-from infrastructure.bip39_generator import UniqueWordsGenerator
-from infrastructure.bip_derivator import SingleStandardDerivator
-from infrastructure.checkpoint import Checkpoint
-from application.scan_targets import ScanTargetsUseCase
-from presentation.cli import (
-    load_targets, group_by_standard,
-    InMemoryTargetRepository, ConsoleResultSaver
-)
+def load_targets(filepath: str) -> Set[Address]:
+    try:
+        with open(filepath, 'r') as f:
+            return {Address(line.strip()) for line in f if line.strip()}
+    except FileNotFoundError:
+        return set()
 
-logger = get_logger(__name__)
+def load_seeds(filepath: str) -> List[str]:
+    try:
+        with open(filepath, 'r') as f:
+            return [line.strip() for line in f if line.strip()]
+    except FileNotFoundError:
+        return []
 
-# ================== НАСТРОЙКИ (ИЗМЕНЯЙТЕ ЗДЕСЬ) ==================
-TARGETS_FILE = "data/targets.txt"
-WORKERS = 2                     # 2 воркера → ~50% CPU, 1 → ~25%
-ADDRESS_LIMIT = 20
-CHECK_CHANGE = True
-STOP_AFTER_FIRST = False
-CHECKPOINT_INTERVAL = 5000
-SEED = None                     # None = случайное зерно
-REQUIRE_UNIQUE = True
-# =================================================================
+def group_by_standard(targets: Set[Address]) -> Dict[str, Set[Address]]:
+    groups = {'BIP44': set(), 'BIP49': set(), 'BIP84': set(), 'BIP86': set()}
+    for addr in targets:
+        std = get_standard_from_address(addr.value)
+        groups[std].add(addr)
+    return groups
 
-# Попытка снизить приоритет процесса (требуется psutil)
-try:
-    import psutil
-    p = psutil.Process()
-    if os.name == 'nt':
-        p.nice(psutil.IDLE_PRIORITY_CLASS)
-    else:
-        p.nice(10)
-    logger.info("Process priority lowered")
-except ImportError:
-    logger.info("psutil not installed – priority unchanged")
-except Exception as e:
-    logger.debug(f"Priority change failed: {e}")
+class InMemoryTargetRepository:
+    def __init__(self, targets: Set[Address]):
+        self._targets = set(targets)
+        self._found = set()
 
-def main():
-    targets = load_targets(TARGETS_FILE)
-    if not targets:
-        logger.error(f"No target addresses found in {TARGETS_FILE}")
-        return
+    def get_remaining(self) -> Set[Address]:
+        return self._targets - self._found
 
-    logger.info(f"Loaded {len(targets)} target addresses")
-    groups = group_by_standard(targets)
-    all_results = []
+    def mark_found(self, address: Address) -> None:
+        self._found.add(address)
 
-    for standard, addresses in groups.items():
-        if not addresses:
-            continue
-
-        logger.info(f"=== Processing {standard} group with {len(addresses)} addresses ===")
-        checkpoint = Checkpoint(f'data/checkpoints/{standard}.json')
-        target_repo = InMemoryTargetRepository(addresses)
-        saver = ConsoleResultSaver()
-
-        generator = UniqueWordsGenerator(
-            mode='counter',
-            seed=SEED,
-            checkpoint=checkpoint,
-            require_unique=REQUIRE_UNIQUE
-        )
-
-        use_case = ScanTargetsUseCase(
-            generator=generator,
-            derivator_class=SingleStandardDerivator,
-            standard=standard,
-            target_repo=target_repo,
-            result_saver=saver,
-            max_workers=WORKERS,
-            address_limit=ADDRESS_LIMIT,
-            stop_after_first=STOP_AFTER_FIRST,
-            checkpoint_interval=CHECKPOINT_INTERVAL,
-            check_change=CHECK_CHANGE
-        )
-
-        results = use_case.execute()
-        all_results.extend(results)
-
-        if STOP_AFTER_FIRST and results:
-            break
-
-    if all_results:
-        print("\nAll found wallets:")
-        for r in all_results:
-            print(f"{r.address.value} -> {r.platform} : {r.mnemonic.phrase}")
-    else:
-        print("No matches found.")
-
-if __name__ == "__main__":
-    main()
+class ConsoleResultSaver:
+    def save(self, result):
+        import json
+        import time
+        from pathlib import Path
+        out_dir = Path('found')
+        out_dir.mkdir(exist_ok=True)
+        filename = out_dir / f"found_{result.address.value}_{int(time.time())}.json"
+        with open(filename, 'w') as f:
+            json.dump({
+                'mnemonic': result.mnemonic.phrase,
+                'passphrase': result.mnemonic.passphrase,
+                'address': result.address.value,
+                'standard': result.standard,
+                'path': result.derivation_path,
+                'platform': result.platform,
+                'seed_hex': result.seed_hex
+            }, f, indent=2)
+        from infrastructure.logger import get_logger
+        get_logger().info(f"Result saved to {filename}")
