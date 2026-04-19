@@ -1,0 +1,298 @@
+2025-09-10 15:00:26 - WalletScanner - INFO - Запуск приложения Wallet Scanner
+2025-09-10 15:00:26 - WalletScanner - INFO - Настройки загружены
+2025-09-10 15:00:40 - WalletScanner - INFO - Загружен словарь english: 2048 слов
+2025-09-10 15:00:40 - WalletScanner - INFO - Загружено 0 известных мнемонических фраз
+2025-09-10 15:00:44 - WalletScanner - INFO - GUI инициализирован
+2025-09-10 15:00:44 - WalletScanner - INFO - Запуск основного цикла приложения
+2025-09-10 15:01:06 - WalletScanner - INFO - Инициализация WalletChecker завершена
+2025-09-10 15:01:06 - WalletScanner - INFO - Запуск непрерывной проверки кошельков
+2025-09-10 15:01:06 - WalletScanner - INFO - Сгенерировано 10 мнемонических фраз с приоритизацией
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерирован пакет из 10 мнемонических фраз
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем обработку пакета из 10 мнемонических фраз
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Применяем предварительную фильтрацию
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['bitcoin', 'ethereum', 'wallet']
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: arm genius life oven abuse rocket script sand garage crouch arrange copper
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x05f017df33e95d1ac385dc3fa9b49eb523f90770: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы arm genius life oven...: 30
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: attitude teach marine census describe urban vacant mandate shuffle side black tilt
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x431bc876ddad78c7a0aceee4d817193654b70f0e: 15
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы attitude teach marin...: 30
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: north prosper crane stairs glide mushroom about wine enrich bunker trade prize
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xcd43a56c84e8031a2a1242251cd2ef81d6f8372f: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы north prosper crane ...: 30
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: butter recycle timber olive unique negative plate tragic sell hawk gauge effort
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xd29043b50c0777cdcfa9d78150e38f2138183f23: 35
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы butter recycle timbe...: 30
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: diamond civil churn tool attitude convince winter visit scrub layer glory absent
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x923318e3c786189f6a1d4b580cc52ad4a5fadfb9: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы diamond civil churn ...: 30
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: sock arrive salad stool item volcano nice lonely nasty equip exclude snow
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x82e1f4ae394e6deb01f946e4a6c206452e776429: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Оценка качества мнемонической фразы sock arrive salad st...: 30
+2025-09-10 15:01:06 - WalletScanner - INFO - После предварительной фильтрации осталось 6 мнемонических фраз
+2025-09-10 15:01:06 - WalletScanner - DEBUG - После предварительной фильтрации осталось 6 фраз
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Применяем приоритизацию
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xd29043b50c0777cdcfa9d78150e38f2138183f23: 35
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x431bc876ddad78c7a0aceee4d817193654b70f0e: 15
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x05f017df33e95d1ac385dc3fa9b49eb523f90770: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xcd43a56c84e8031a2a1242251cd2ef81d6f8372f: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x923318e3c786189f6a1d4b580cc52ad4a5fadfb9: 0
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x82e1f4ae394e6deb01f946e4a6c206452e776429: 0
+2025-09-10 15:01:06 - WalletScanner - INFO - Приоритизация завершена, обработано 6 мнемонических фраз
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: butter recycle timbe... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: butter recycle timber olive unique negative plate tragic sell hawk gauge effort
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: attitude teach marin... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: arm genius life oven... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: north prosper crane ... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: attitude teach marine census describe urban vacant mandate shuffle side black tilt
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: diamond civil churn ... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: arm genius life oven abuse rocket script sand garage crouch arrange copper
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0xd29043b50c0777cdcfa9d78150e38f2138183f23, BTC: 1PnSGc2okBpk6LHKMeDXKvNdvVseAUfQM1, LTC: Li1PXpLdpr4oM8yUXnCpbwSQ8iEvDN3eDt
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: north prosper crane stairs glide mushroom about wine enrich bunker trade prize
+2025-09-10 15:01:06 - WalletScanner - INFO - Начинаем проверку кошелька: sock arrive salad st... (язык: english)
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: diamond civil churn tool attitude convince winter visit scrub layer glory absent
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза валидна: sock arrive salad stool item volcano nice lonely nasty equip exclude snow
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x431bc876ddad78c7a0aceee4d817193654b70f0e, BTC: 1HWr1q7xZkNUoF4yZfJXwY6inQoMw6WJtY, LTC: LbjoH3RneQcY43m8joHqDZAUzdAe6JhjbV
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x05f017df33e95d1ac385dc3fa9b49eb523f90770, BTC: 1EceGFQi2iQqo258vtSjqFpFafdSPUEVg8, LTC: LYqbXTiY7Neu3pmJ72S37Gt1nsziTSQS4f
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0xcd43a56c84e8031a2a1242251cd2ef81d6f8372f, BTC: 1GZNXucxS9RRcN74YmZvjTZ7bFzqM8N5jC, LTC: LanKo7vnWofUsAoDiuZE1UcsoUN7XJvkoL
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x923318e3c786189f6a1d4b580cc52ad4a5fadfb9, BTC: 154dF3bJj1eR4GvzpoLdsTtbFfy6zV9vZi, LTC: LPHaWFu8oftUK5d9zwKw9UxMTtLPBZ2xdv
+2025-09-10 15:01:06 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1PnSGc2okBpk6LHKMeDXKvNdvVseAUfQM1
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x82e1f4ae394e6deb01f946e4a6c206452e776429, BTC: 1JPxXtRB5tLya3VYM1KNNoCjdPzLfu9fe2, LTC: Lccuo6j1AYb2prBhX9JfepGVqcMctrZouN
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1JPxXtRB5tLya3VYM1KNNoCjdPzLfu9fe2
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1GZNXucxS9RRcN74YmZvjTZ7bFzqM8N5jC
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 154dF3bJj1eR4GvzpoLdsTtbFfy6zV9vZi
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1HWr1q7xZkNUoF4yZfJXwY6inQoMw6WJtY
+2025-09-10 15:01:07 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1EceGFQi2iQqo258vtSjqFpFafdSPUEVg8
+2025-09-10 15:01:08 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:08 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0xd29043b50c0777cdcfa9d78150e38f2138183f23
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x431bc876ddad78c7a0aceee4d817193654b70f0e
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x923318e3c786189f6a1d4b580cc52ad4a5fadfb9
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0xcd43a56c84e8031a2a1242251cd2ef81d6f8372f
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x05f017df33e95d1ac385dc3fa9b49eb523f90770
+2025-09-10 15:01:09 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x82e1f4ae394e6deb01f946e4a6c206452e776429
+2025-09-10 15:01:11 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:11 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:11 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LbjoH3RneQcY43m8joHqDZAUzdAe6JhjbV
+2025-09-10 15:01:11 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LPHaWFu8oftUK5d9zwKw9UxMTtLPBZ2xdv
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LanKo7vnWofUsAoDiuZE1UcsoUN7XJvkoL
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: Li1PXpLdpr4oM8yUXnCpbwSQ8iEvDN3eDt
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: Lccuo6j1AYb2prBhX9JfepGVqcMctrZouN
+2025-09-10 15:01:12 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LYqbXTiY7Neu3pmJ72S37Gt1nsziTSQS4f
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:14 - WalletScanner - INFO - Пакет обработан: проверено 6, найдено 0
+2025-09-10 15:01:14 - WalletScanner - INFO - Сгенерировано 10 мнемонических фраз с приоритизацией
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Сгенерирован пакет из 10 мнемонических фраз
+2025-09-10 15:01:14 - WalletScanner - INFO - Начинаем обработку пакета из 10 мнемонических фраз
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Применяем предварительную фильтрацию
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза валидна: sword thought divorce cave antique toe climb midnight success will exile daughter
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x101e219d618c116aa2ae28c60b81f8464f81547f: 0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Оценка качества мнемонической фразы sword thought divorc...: 30
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза валидна: jewel measure chest boy pill reveal first cake reform rebuild hen garbage
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x7d639a93306ce7128b14270c93f3497611a6f0df: 0
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Оценка качества мнемонической фразы jewel measure chest ...: 30
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза валидна: spray bachelor walnut stock seminar find impact ozone mail voice guitar wish
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xfe87d1cff8d1a336abcd6d725fc76c3f0359a073: 20
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Оценка качества мнемонической фразы spray bachelor walnu...: 30
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза содержит повторяющиеся слова: abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+2025-09-10 15:01:14 - WalletScanner - DEBUG - Мнемоническая фраза валидна: kitchen sorry habit glue hungry razor atom second hollow wonder tape coconut
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x480f172e28837f69578161482bb285a3f51adee5: 0
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Оценка качества мнемонической фразы kitchen sorry habit ...: 30
+2025-09-10 15:01:15 - WalletScanner - INFO - После предварительной фильтрации осталось 4 мнемонических фраз
+2025-09-10 15:01:15 - WalletScanner - DEBUG - После предварительной фильтрации осталось 4 фраз
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Применяем приоритизацию
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xfe87d1cff8d1a336abcd6d725fc76c3f0359a073: 20
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x101e219d618c116aa2ae28c60b81f8464f81547f: 0
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x7d639a93306ce7128b14270c93f3497611a6f0df: 0
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x480f172e28837f69578161482bb285a3f51adee5: 0
+2025-09-10 15:01:15 - WalletScanner - INFO - Приоритизация завершена, обработано 4 мнемонических фраз
+2025-09-10 15:01:15 - WalletScanner - INFO - Начинаем проверку кошелька: spray bachelor walnu... (язык: english)
+2025-09-10 15:01:15 - WalletScanner - INFO - Начинаем проверку кошелька: sword thought divorc... (язык: english)
+2025-09-10 15:01:15 - WalletScanner - INFO - Начинаем проверку кошелька: jewel measure chest ... (язык: english)
+2025-09-10 15:01:15 - WalletScanner - INFO - Начинаем проверку кошелька: kitchen sorry habit ... (язык: english)
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза валидна: spray bachelor walnut stock seminar find impact ozone mail voice guitar wish
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза валидна: sword thought divorce cave antique toe climb midnight success will exile daughter
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0xfe87d1cff8d1a336abcd6d725fc76c3f0359a073, BTC: 1cr18AuyJSiq7K6tHqfFSm9w7RH7zBYq6, LTC: LKqoGLUk3xgn5v1G4RpxXTpv9KnZGUms4z
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза валидна: jewel measure chest boy pill reveal first cake reform rebuild hen garbage
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x101e219d618c116aa2ae28c60b81f8464f81547f, BTC: 19SUb4xtzfBSgWcv52c2mMaYiRVzMceJgv, LTC: LTfRrHGj5KRVwKK5FAbL3NeJvdsGVjWyYF
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x7d639a93306ce7128b14270c93f3497611a6f0df, BTC: 16utTgMKg1rZFQPbG7Y9zeYp77QBpWkntL, LTC: LR8qitf9kg6cWD5kSFXTGfcaKKmTsmPVTV
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза валидна: kitchen sorry habit glue hungry razor atom second hollow wonder tape coconut
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x480f172e28837f69578161482bb285a3f51adee5, BTC: 15YqoPgdLUi8WA3kizMEL3DJU53DnndZYg, LTC: LPmo4bzTR8xBkxjuu8LXc4H4gHQVsqcwDg
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 16utTgMKg1rZFQPbG7Y9zeYp77QBpWkntL
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 19SUb4xtzfBSgWcv52c2mMaYiRVzMceJgv
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 15YqoPgdLUi8WA3kizMEL3DJU53DnndZYg
+2025-09-10 15:01:15 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1cr18AuyJSiq7K6tHqfFSm9w7RH7zBYq6
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0xfe87d1cff8d1a336abcd6d725fc76c3f0359a073
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x101e219d618c116aa2ae28c60b81f8464f81547f
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x7d639a93306ce7128b14270c93f3497611a6f0df
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:16 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x480f172e28837f69578161482bb285a3f51adee5
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LKqoGLUk3xgn5v1G4RpxXTpv9KnZGUms4z
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LTfRrHGj5KRVwKK5FAbL3NeJvdsGVjWyYF
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:17 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LR8qitf9kg6cWD5kSFXTGfcaKKmTsmPVTV
+2025-09-10 15:01:18 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:18 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LPmo4bzTR8xBkxjuu8LXc4H4gHQVsqcwDg
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:19 - WalletScanner - INFO - Пакет обработан: проверено 4, найдено 0
+2025-09-10 15:01:19 - WalletScanner - INFO - Сгенерировано 10 мнемонических фраз с приоритизацией
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Сгенерирован пакет из 10 мнемонических фраз
+2025-09-10 15:01:19 - WalletScanner - INFO - Начинаем обработку пакета из 10 мнемонических фраз
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Применяем предварительную фильтрацию
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит повторяющиеся слова: abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит повторяющиеся слова: abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза валидна: bind siege crane surge diet glow long reopen cancel unusual snow child
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xf19219be8874391019bd263b52fa026f9a70c94c: 0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Оценка качества мнемонической фразы bind siege crane sur...: 30
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза валидна: feel develop boring hunt ethics chapter model next warfare orbit deny mass
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x6a7ef8f2ea1587500675878560b86fa9022ca060: 0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Оценка качества мнемонической фразы feel develop boring ...: 30
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['bitcoin', 'ethereum', 'wallet']
+2025-09-10 15:01:19 - WalletScanner - INFO - После предварительной фильтрации осталось 2 мнемонических фраз
+2025-09-10 15:01:19 - WalletScanner - DEBUG - После предварительной фильтрации осталось 2 фраз
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Применяем приоритизацию
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xf19219be8874391019bd263b52fa026f9a70c94c: 0
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x6a7ef8f2ea1587500675878560b86fa9022ca060: 0
+2025-09-10 15:01:19 - WalletScanner - INFO - Приоритизация завершена, обработано 2 мнемонических фраз
+2025-09-10 15:01:19 - WalletScanner - INFO - Начинаем проверку кошелька: bind siege crane sur... (язык: english)
+2025-09-10 15:01:19 - WalletScanner - INFO - Начинаем проверку кошелька: feel develop boring ... (язык: english)
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза валидна: bind siege crane surge diet glow long reopen cancel unusual snow child
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0xf19219be8874391019bd263b52fa026f9a70c94c, BTC: 1Bwe8VNFuWXZVks9qCrBEPz8BiYTGpujgb, LTC: LWAbPhg5zAmckZZK1LqUWR3tPvujNB2Ltu
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза валидна: feel develop boring hunt ethics chapter model next warfare orbit deny mass
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1Bwe8VNFuWXZVks9qCrBEPz8BiYTGpujgb
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x6a7ef8f2ea1587500675878560b86fa9022ca060, BTC: 18L9UTyigiUUUmqZFFnnsWUKSJEkoU6oGp, LTC: LSZ6jgHYmNiXjaXiRPn69XY5eWc2y4vXkm
+2025-09-10 15:01:19 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 18L9UTyigiUUUmqZFFnnsWUKSJEkoU6oGp
+2025-09-10 15:01:20 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:20 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0xf19219be8874391019bd263b52fa026f9a70c94c
+2025-09-10 15:01:20 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:20 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x6a7ef8f2ea1587500675878560b86fa9022ca060
+2025-09-10 15:01:22 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:22 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:22 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LWAbPhg5zAmckZZK1LqUWR3tPvujNB2Ltu
+2025-09-10 15:01:22 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LSZ6jgHYmNiXjaXiRPn69XY5eWc2y4vXkm
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Баланс LTC: 0.0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Первичная проверка: BTC=0.0, ETH=0.0, LTC=0.0, Total USD=0.0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Баланс основных валют ниже порога, пропускаем кошелек
+2025-09-10 15:01:23 - WalletScanner - INFO - Пакет обработан: проверено 2, найдено 0
+2025-09-10 15:01:23 - WalletScanner - INFO - Сгенерировано 10 мнемонических фраз с приоритизацией
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Сгенерирован пакет из 10 мнемонических фраз
+2025-09-10 15:01:23 - WalletScanner - INFO - Начинаем обработку пакета из 10 мнемонических фраз
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Применяем предварительную фильтрацию
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза валидна: impulse talent cry lunch endless captain peanut arrive wolf clarify laptop sunset
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x45176f410bb614d4989faf0505739c7b2407af3c: 0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Оценка качества мнемонической фразы impulse talent cry l...: 30
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['bitcoin', 'ethereum', 'wallet']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['crypto', 'blockchain', 'transaction']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза валидна: brick model tumble damage speed grow castle zero charge gym kingdom learn
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x9a1be15311a6f9c2b4f009084b43a4de59b8879f: 0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Оценка качества мнемонической фразы brick model tumble d...: 30
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['bitcoin', 'ethereum', 'wallet']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза валидна: fetch normal leopard best retire march drip outside pink master trend plate
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xad4aa236551f110f4dfc997012fdbecc34539c7f: 0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Оценка качества мнемонической фразы fetch normal leopard...: 30
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['bitcoin', 'ethereum', 'wallet']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза содержит невалидные слова: ['password']
+2025-09-10 15:01:23 - WalletScanner - INFO - После предварительной фильтрации осталось 3 мнемонических фраз
+2025-09-10 15:01:23 - WalletScanner - DEBUG - После предварительной фильтрации осталось 3 фраз
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Применяем приоритизацию
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x45176f410bb614d4989faf0505739c7b2407af3c: 0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0x9a1be15311a6f9c2b4f009084b43a4de59b8879f: 0
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Эвристическая оценка для адреса 0xad4aa236551f110f4dfc997012fdbecc34539c7f: 0
+2025-09-10 15:01:23 - WalletScanner - INFO - Приоритизация завершена, обработано 3 мнемонических фраз
+2025-09-10 15:01:23 - WalletScanner - INFO - Начинаем проверку кошелька: impulse talent cry l... (язык: english)
+2025-09-10 15:01:23 - WalletScanner - INFO - Начинаем проверку кошелька: brick model tumble d... (язык: english)
+2025-09-10 15:01:23 - WalletScanner - INFO - Начинаем проверку кошелька: fetch normal leopard... (язык: english)
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза валидна: impulse talent cry lunch endless captain peanut arrive wolf clarify laptop sunset
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:23 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x45176f410bb614d4989faf0505739c7b2407af3c, BTC: 12gTUC2FzvpsrNXFq7i2PUphjog3ez6H75, LTC: LLuQjQL65b4w7BDR1FhKfVtTx23Kijo2B2
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 12gTUC2FzvpsrNXFq7i2PUphjog3ez6H75
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Мнемоническая фраза валидна: brick model tumble damage speed grow castle zero charge gym kingdom learn
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0x9a1be15311a6f9c2b4f009084b43a4de59b8879f, BTC: 1FeL7P5ews5x2TwXDnacpRCM54paQsXF8n, LTC: LZsHNbPV2XL1HGdgPvZv6SG7HHBrZE17EG
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1FeL7P5ews5x2TwXDnacpRCM54paQsXF8n
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Мнемоническая фраза валидна: fetch normal leopard best retire march drip outside pink master trend plate
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Мнемоническая фраза преобразована в seed
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Сгенерированы адреса - ETH: 0xad4aa236551f110f4dfc997012fdbecc34539c7f, BTC: 1HvBagfuhJHvm8rMvhREwPixZnECbrNzvP, LTC: Lc98qtyjmxXz1wYX6qQYDQnimzbUhdh7vX
+2025-09-10 15:01:24 - WalletScanner - DEBUG - Проверка баланса BTC для адреса: 1HvBagfuhJHvm8rMvhREwPixZnECbrNzvP
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x9a1be15311a6f9c2b4f009084b43a4de59b8879f
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0x45176f410bb614d4989faf0505739c7b2407af3c
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Баланс BTC: 0.0
+2025-09-10 15:01:25 - WalletScanner - DEBUG - Проверка баланса ETH для адреса: 0xad4aa236551f110f4dfc997012fdbecc34539c7f
+2025-09-10 15:01:26 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:26 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LZsHNbPV2XL1HGdgPvZv6SG7HHBrZE17EG
+2025-09-10 15:01:26 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:27 - WalletScanner - DEBUG - Баланс ETH: 0.0
+2025-09-10 15:01:27 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: Lc98qtyjmxXz1wYX6qQYDQnimzbUhdh7vX
+2025-09-10 15:01:27 - WalletScanner - DEBUG - Проверка баланса LTC для адреса: LLuQjQL65b4w7BDR1FhKfVtTx23Kijo2B2
