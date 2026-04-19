@@ -1,0 +1,32 @@
+meta_hunter/
+├── main.py                 # Универсальная точка входа с аргументами
+├── main_hunt.py            # Только поиск адресов
+├── main_crack.py           # Только подбор ключей
+├── main_full.py            # Полный цикл (hunt → crack)
+├── domain/
+│   ├── __init__.py
+│   ├── entities.py
+│   └── interfaces.py
+├── application/
+│   ├── __init__.py
+│   ├── scan_targets.py     # UseCase подбора ключей
+│   └── hunt_addresses.py   # UseCase поиска адресов
+├── infrastructure/
+│   ├── __init__.py
+│   ├── logger.py
+│   ├── checkpoint.py
+│   ├── platform_guesser.py
+│   ├── bip39_generator.py
+│   ├── coincurve_derivator.py
+│   └── btc_hunter.py
+├── presentation/
+│   ├── __init__.py
+│   └── cli.py
+└── data/
+    ├── seeds.txt           # стартовые адреса для BFS
+    ├── targets.txt         # целевые адреса (заполняется hunt)
+    ├── checkpoints/        # состояние подбора
+    ├── hunter_state/       # состояние BFS
+    ├── hunter_cache/       # кэш API запросов
+    ├── logs/
+    └── found/              # результаты подбора
